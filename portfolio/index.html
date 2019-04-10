@@ -1,86 +1,129 @@
-<!DOCTYPE html> 
-<!--
-Name: John Kontolios
-Date Created: April 4, 2019
-Most recent revision: 04/04/19
--->
-
+<!DOCTYPE html>
 <html lang="en">
+
     <head>
-    <title>John's Portfolio</title>    
+  <script src="ball.js"></script>
+    <title>John P. Kontolios</title>
+    <link href="main.css" rel="stylesheet" type=text/css />    
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/addons/p5.dom.min.js"></script>
+    <style>
+      header{
+          background-color: darkblue;
+          color: white;
+          }
+      caption{
+          font-weight: bold;
+          font-size: 1.2em;
+          margin-bottom: 8px;
+          }
+      table, th, td{
+          border: 1px solid;
+         border-collapse: collapse;
+          padding: 5px 10px;
+      }
+      table{
+          width: 90%
+          margin: auto
+      }
+      
+      tr{
+          height: 30px
+      }
+      
+      th{
+          background-color:#546a7b;
+          color: #f2eded;
+    }
+      tr:nth-child(odd){
+          background-color: #e4c3ad;
+      }
+        </style>
+        
+
+
     </head>
     <body>
+    
     <header>
-        <h1>Portfolio for John P. Kontolios</h1>
+        <h1>Portfolio of John P. Kontolios</h1>
     </header>
+  
+  <nav>
+  <hr style="border: thin dotted blue;"/>
+      <a href="">Projects</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="">Fun Facts</a>
+ <div></div><br/>
+      <center>
+      <div id="setPosition"></div>
+      </center>
+    <hr style="width:50%; border: 2px solid blue;"/>        
+   
+    </nav>    
     
-    <hr />
-    <!--We need to add links to projects.html, contact.html, and testimonials.html -->
-    <nav>
-        <p><a href="projects.html">Projects</a></p>
-        <p><a href="contact.html">Contact Me</a></p>
-        <p><a href="testimonials.html">Testimonials</a>
-        </p>
-    </nav>
-    <hr />
+    <section>
+        <article id="about me">
+            <h2><em>About Me</em></h2>
+            <p>My name is John Kontolios and I am currently 29 years old. I grew up in Flushing, Queens and now I currently live in Long Island City, New York. I love reading all types of genres and can spend hours in the library. Writing is also an interest of mine and I usually like to write short stories and poems.</p>
+            <p>I was always interested in computers and marveled on how they operated. I always said I would learn how to program and develope websites and last year is when I actually started to make that a reality. I started my endevour at The New York Code + Design Academy in early Novemeber and when it ended in mid January I have seen an amazing opprotunity with TechHire-Open Code. Now I am so greatful to be part of this group, and to have such GREAT instructors teaching us about web development and programming.</p>
+           </article>
+         
+        <article id="past-exp">
+        <h2><em>Past Experience</em></h2>
+        
+        <table border="1" width="60%">
+            <caption style="color:cornflowerblue; font-size: 30px">Employment History
+            </caption>
+            <tr>
+               <th>Years of Employment</th>
+               <th>Title</th>
+               <th>Company</th>
+            </tr>
+            <tr>
+                <td>11/2014-01/2018</td>
+                <td>Procurement Manager</td>
+                <td>Masterpiece Construction</td>
+            </tr>
+            <tr>
+                 <td>05/2014-11/2014</td>
+                 <td>Senior Teller</td>
+                  <td>T.D Bank N.A</td>
+            </tr>
+            <tr>
+               <td>03/2008-07/2013</td>
+               <td>Senior Teller Supervisor</td>
+               <td>Capital One Bank</td>
+            </tr>
+            <tr>
+               <td>December 2012</td>
+               <td>B.A in Political Science</td>
+               <td>Queens College</td>
+            </tr>
+            </table>
+        </article>
+       <article id="hobbies">
+        <h2><em>Hobbies</em></h2>
+        
+           <ul style="list-style-type: square;"></ul>
+            <li>Exercising</li>
+            <li>Reading</li>
+            <li>Writing</li>
+            <li>Completing Puzzles</li>
+            <li>Playing Sudoku</li>
+        </article>
+        
+    </section>
     
-        <section>
-           <article id="about-me"> 
-           <h2><em>About Me</em></h2>
-            <a href="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Morris-Luckyluke1.jpg/200px-Morris-Luckyluke1.jpg"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Morris-Luckyluke1.jpg/200px-Morris-Luckyluke1.jpg" alt="Picture of Cowboy"/></a>   
-    <p>Iis consequat nam quamquam, esse vidisse ut minim labore, incididunt elit 
-    offendit nescius, legam illustriora consequat minim tempor. Ubi ad sint varias 
-    fugiat. Quo lorem malis ubi quamquam. E nostrud o possumus, ut quorum proident 
-    est aliquip comprehenderit ex voluptate est admodum eram labore eiusmod fore. 
-    Elit nam se legam vidisse iis in esse occaecat senserit ne dolor hic quamquam se 
-    quorum eu nostrud te fugiat quo e duis velit aut senserit ubi sunt do fabulas se 
-    eram ubi si enim senserit transferrem id e ut transferrem. Eiusmod hic eram.</p> 
-    <p>possumus non ne sunt quem noster occaecat. Quo fugiat o irure. Expetendis culpa 
-    incurreret, cernantur enim tamen fabulas nulla eu an quis consectetur, mentitum 
-    est doctrina, iis ea noster nisi quem, sed possumus graviterque e nam admodum de 
-    quibusdam, ubi mandaremus despicationes.
-    </p>           
-    </article>    
     
-    <article id="past-exp">
-        <h2><em>Past Experiences</em></h2>
-        <p>Nisi admodum sempiternum, o senserit voluptatibus nam iis mandaremus si nescius, 
-    se multos anim ad excepteur, malis a cupidatat iis eram, eiusmod quis hic 
-    doctrina familiaritatem a minim sed do cillum nescius id anim o cupidatat non <span style="background-color: antiquewhite; border: thin solid darkblue;">
-    amet. Qui amet deserunt arbitrantur e mentitum ad legam. Hic proident ne</span></p> 
-    <p>arbitror, appellat o veniam. Legam litteris sempiternum hic sed dolor iudicem ex 
-    ubi anim non varias, tempor fugiat multos ea malis id e possumus cohaerescant an 
-    tamen efflorescere excepteur aliqua proident non sint laboris appellat do ab 
-    lorem cernantur exercitation. Qui sed esse quid quem, incurreret varias ea 
-    officia relinqueret, ex cupidatat arbitrantur a senserit multos ut incurreret 
-    distinguantur. Possumus ubi minim aut sint sed deserunt, excepteur legam summis 
-    excepteur tamen te qui fugiat qui culpa.
-        </p>            
-</article>
-        
-    <article id="hobbies">
-            <h2><em>Hobbies</em></h2>
-    <p>Officia ab incurreret te an mandaremus graviterque ab noster deserunt ut 
-        ingeniis, pariatur de tamen,<strong> tamen quibusdam se praesentibus ne id duis laborum</strong> 
-    vidisse non veniam expetendis ut quid dolor, noster ita ita dolore deserunt. 
-    Cillum despicationes occaecat aute ingeniis, non vidisse comprehenderit, admodum 
-    velit probant cupidatat est deserunt nam mentitum. Tamen tractavissent aliquip 
-    amet excepteur id magna nescius tempor. Fore ita nescius ita sunt, admodum.</p> 
-        <p>veniam quamquam mentitum, ipsum<strong> consequat qui occaecat, pariatur quem quibusdam.</strong> 
-    Nisi praesentibus voluptate noster proident e velit consequat qui quem nulla non 
-    offendit esse ipsum cernantur eram ne ingeniis fore ubi eiusmod imitarentur, ex 
-    anim aliquip, culpa arbitror do fore quae, probant quo magna id quorum de 
-    expetendis aut quorum. Nulla mentitum philosophari, irure est ita tamen 
-    mentitum.</p>
-    </article>
-        
-</section>     
-        
-       
+    
+    
+    </body>
+    <hr /> 
     <footer>
-        <hr /> 
-    <p>&copy; 2020 John Kontolios. All rights reserved</p>
-    </footer>    
+          
+        <!-- style="background-color:cornflowerblue"> -->
         
-</body>
-</html>
+    <p>&copy; 2020 John Kontolios. All rights reserved</p>
+    </footer> 
+</html

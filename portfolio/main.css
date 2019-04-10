@@ -1,0 +1,39 @@
+/*
+Creator: John P. Kontolios
+Date Created: April 9, 2019
+Date last modified: 04/09/2019
+*/
+
+body{
+    background-color: #fef9ff;
+    font-family: arial, helvetica, sans-serif;
+    color: #0d1f2d
+}
+header{
+    height: 100px;
+    text-align: center;
+    padding: 30px, 10px, 20px, 10px;
+}
+h1{
+    font-size: 2.5em;
+}
+nav{
+    border-top: 3px dashed #546a7b;
+    border-bottom: 3px dashed #546a7b;
+    margin-top: 4px;
+}
+header, footer {
+    background-color: #546a7b;
+    color: #fef9ff;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+nav a{
+    background-color: #5b7d87;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+}
