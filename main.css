@@ -29,11 +29,3 @@ header, footer {
     text-align: center;
     padding: 30px 10px 20px 10px;
 }
-nav a{
-    background-color: #5b7d87;
-    color: #fef9ff;
-    padding: 8px;
-    border: thin solid #0d1f2d;
-    text-decoration: none;
-    text-align: center;
-}

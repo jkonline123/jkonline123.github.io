@@ -1,0 +1,88 @@
+header{
+    color:cornflowerblue;
+    text-align:left;
+    margin:0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer{
+    color:cornflowerblue;
+    font-size:20px;
+    text-align:center;
+}
+nav .btn {
+    background-color:cornflowerblue;
+    color:aliceblue;
+}
+nav .btn:hover{
+    font-weight: bold;
+}
+h1 {
+    font-size:100px;
+    padding-top: 10px;
+    color:cornflowerblue;
+    
+}
+body{
+ background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/my-greek-garden-yvonne-ayoub.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+    position: initial;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244,244,244,0.20);
+}
+/*
+.carousel-item{
+    padding-left:150px;
+}
+*/
+/*
+.carousel-inner{
+    width:640px;
+    height:auto;
+    padding-left:150px;
+}
+*/
+h5{
+    color: white;
+    font-size: 40px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+p{
+    font-size:20px;
+    font-weight 900;
+    
+}
+/*
+hr{
+    size:10px;
+}
+*/
+.page-title{
+    font-size: 122px;
+    font-weight:bold;
+     text-align:center;
+    margin:0;
+    font-family: 'Garamond', cursive;
+    
+}
+
+/*
+.badge-pill{
+    color:red;
+    
+*/
+nav{
+    text-align:center;
+}
+}
