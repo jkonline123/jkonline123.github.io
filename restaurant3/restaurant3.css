@@ -1,0 +1,22 @@
+h3{
+    font-family: 'Exo 2', sans-serif;
+    color:greenyellow;
+}
+
+body{
+    background-color:black;
+}
+
+label{
+    color:yellowgreen;
+}
+
+option{
+    color:yellowgreen;
+    font-weight:100px;
+    background-color:black;
+}
+
+#teetlo{
+    font-family: 'Exo 2', sans-serif;
+}

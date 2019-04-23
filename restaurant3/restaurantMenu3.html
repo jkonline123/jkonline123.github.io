@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="restaurant3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        #teetlo{
+            font-family: 'Exo 2', sans-serif;
+        }
+        legend{
+            font-family: 'Exo 2', sans-serif;
+        }
+        option{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 20px;
+        }
+        label{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <a style="color:greenyellow"class="navbar-brand" href="restaurant3.html">fullStackBurgers.com</a>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-label="Toggle navigation"><img src="images/burgerPic.png" width="50px" height="50px">
+                 </button>
+               
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+           
+                
+            <ul class ="nav nav-pills">
+            <li><a style="color:greenyellow" href="restaurantMenu3.html">Menu</a></li>
+            <li><a style="color:greenyellow" href="contactPopup.html">Contact Us</a></li>
+            <li><a style="color:greenyellow" href="#">Celebs Eating F.S.B</a></li>
+        </ul>
+           
+        </div>
+        </div>
+    </nav>
+    
+    
+    <div class="container">
+        <div class="jumbotron" style="background-color: dimgrey">
+    <header>
+    <h1 id="teetlo" style="color:greenyellow; text-align: center">Full Stack <img src="images/burgerPic.png">'s</h1>
+    </header>
+      </div>
+<form id="order" method="post" action="mailto:fullStackBurgerOrders@gmail.com">
+    <fieldset id="selections">
+        <legend style="color:yellowgreen"><strong>Custom Made Burgers - We deliver you from evil !!!</strong></legend>
+        
+
+        <p>
+            <label>Buns:</label>
+            <select name="bakery">
+                <option value="">Choose Wisely</option>
+                <option value="1">Pita Bread ($1.00)</option>
+                <option value="2">OG Sesame Bun ($2.00)</option>
+            </select>
+            <input type="text" name="bakeryquantity" value="How Many?" size="8">
+        </p>
+
+        <p>
+            <label>Meat:</label>
+            <select name="mns">
+                <option value="">Suprise Me</option>
+                <option value="4">camelCase Beef($4.00)</option>
+                <option value="15">Elephant meat ($15.00)</option>
+            </select>
+            <input type="text" name="mnsquantity" value="How Many?" size="8">
+        </p>
+
+        <p>
+            <label>Lettuce:</label>
+            <select name="produce">
+                <option value="">LetUs Know</option>
+                <option value="2">Romaine ($2.00)</option>
+                <option value="4">Kale ($4.00)</option>
+            </select>
+            <input type="text" name="producequantity" value="Amount?" size="8">
+        </p>
+
+        <p>
+            <label>Queso:</label>
+            <select name="cnd">
+                <option value="">Say Cheese!</option>
+                <option value="3">C Sharp Cheddar ($3.00)</option>
+                <option value="3">Munster ($3.00)</option>
+            </select>
+            <input type="text" name="cndquantity" value="Quantity?" size="8">
+        </p>
+
+        <p>
+            <label>Brew:</label>
+            <select name="wine">
+                <option value="">Brew DR.</option>
+                <option value="7">New SG Brew ($7.00)</option>
+                <option value="8">Corona ($8.00)</option>
+            </select>
+            <input type="text" name="winequantity" value="Quantity?" size="8">
+        </p>
+    </fieldset>
+    <input type="submit" value="Place order">
+</form>
+<div style="color:greenyellow; font-size: 20px" id="totalPrice"></div>
+    
+    <script type="text/JavaScript" src="restaurant3shopCart.js"></script>
+    </div>
+    <footer style="background-color:greenyellow; text-align: center"><img src="images/burgerPic.png" width="20px" height="20px">
+        Full Stack Burgers co.
+            in a neighborhood near you ! <img src="images/burgerPic.png" width="20px" height="20px">
+        </footer>
+    </body>
+</html>

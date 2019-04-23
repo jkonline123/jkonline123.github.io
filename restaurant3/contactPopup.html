@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>F.S.B Contact Form</title>
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<link href="contactPopup.css" rel="stylesheet">
+<script src="contactPopup.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="restaurant3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <a style="color:greenyellow" class="navbar-brand" href="restaurant3.html">fullStackBurgers.com</a>
+    <button type="button" id="upBar" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-label="Toggle navigation"> <img src="images/burgerPic.png" width="50px" height="50px" style="padding-bottom: 15px; padding-right: 15px">
+                 </button>
+               
+        </div>
+    <!-- reason for dropdown-->        
+        <div class="collapse navbar-collapse" id="myNavbar">
+           
+                
+            <ul class ="nav nav-pills">
+            <li><a style="color:greenyellow" href="restaurantMenu3.html">Menu</a></li>
+            <li><a style="color:greenyellow"href="contactPopup.html">Contact Us</a></li>
+            <li><a style="color:greenyellow"href="#">Celebs Eating F.S.B</a></li>
+        </ul>
+           
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron" style="background-color: dimgrey">
+    <header>
+    <h1 id="teetlo" style="color:greenyellow; text-align: center">Full Stack <img src="images/burgerPic.png">'s</h1>
+    </header>
+        </div>
+    </div>
+</head>
+    
+<!-- Body Starts Here -->
+<body id="body" style="overflow:hidden;">
+<div id="abc">
+<!-- Popup Div Starts Here -->
+<div id="popupContact">
+<!-- Contact Us Form -->
+<form action="#" id="form" method="post" name="form">
+<img id="close" src="images/burgerPic.png" width="30px" height="50px" onclick ="div_hide()">
+<h2 style="background-color:black; font-family: 'Exo 2', sans-serif; color:greenyellow">Contact Us</h2>
+<hr style="color:greenyellow">
+<input id="name" name="name" placeholder="Name" type="text">
+<input id="email" name="email" placeholder="Email" type="text">
+<textarea id="msg" name="message" placeholder="Message"></textarea>
+<a style="color:greenyellow" href="javascript:%20check_empty()" id="submit">Send</a>
+</form>
+</div>
+<!-- Popup Div Ends Here -->
+</div>
+    <center>
+<!-- Display Popup Button -->
+    <p id ="slogan" style="text-align: center">"Delivery Us From Evil!"</p>
+<h1 id="click" style="color:yellowgreen">Click 2 Contact</h1>
+<button id="popup" onclick="div_show()">Contact US</button>
+    <br>
+        <br>
+    <div>
+    <p id="slogan">We always love to hear from our many fans</p>
+    </div>
+    </center>
+    <footer style="background-color:greenyellow; text-align: center"><img src="images/burgerPic.png" width="20px" height="20px">
+        Full Stack Burgers co.
+            in a neighborhood near you ! <img src="images/burgerPic.png" width="20px" height="20px">
+        </footer>
+</body>
+    
+<!-- Body Ends Here -->
+</html>
